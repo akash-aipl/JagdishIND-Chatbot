@@ -209,7 +209,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     return ConversationHandler.END
 
 if __name__ == '__main__':
-    application = ApplicationBuilder().token('5547103630:AAFafbPlUAPFcr3tCdhkdYQpJd8V23SPIB0').build()
+    application = ApplicationBuilder().token('TOKEN').build()
     
     # Add conversation handler with the states Fullname, DOB, Email and Phone
     conv_handler = ConversationHandler(
